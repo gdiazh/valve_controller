@@ -1,0 +1,17 @@
+Resumen consumo dispositivo
+---------------------------------------------
+Componente	|	idle	|	rx/tx			|
+------------|-----------|-------------------|		
+XBee (1)	|	41mA	|	45mA			|
+H	 (2)	|	37mA	|	37mA			|
+pic	 (3)	|	9mA 	|	9mA 			|
+carga (4*)	|	10mA	|	12mA 			|
+------------|-----------|-------------------|
+TODO		|	97mA	|	103mA (Suma)	|
+TODO		|	98mA	|	102mA (Medido)	|
+------------|-----------|-------------------|
+(1)+(2)+(3)	|	87mA	|	93mA (Suma)		|
+--------------------------------------------|
+
+(4*): "carga" corresponde en este caso a los LEDs que
+	   estan cumpliendo la función de las electroválvulas
